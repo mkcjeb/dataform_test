@@ -7,8 +7,10 @@
 config {
   type: "view", // Creates a view in BigQuery. Try changing to "table" instead.
   columns: {
-    test: "A description for the test column", 
-    test2: "adding new column description"// Column descriptions are pushed to BigQuery.
+
+    test: "A description for the test column", // Column descriptions are pushed to BigQuery.
+    id: ""
+
   }
 }
 
